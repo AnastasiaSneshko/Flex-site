@@ -3,21 +3,21 @@ body {
   font-family: Arial, Helvetica, sans-serifs;
 }
 
-.wrapper {
-  width: 880px;
+.section {
+  width: 800px;
+  text-align: center;
   margin: 0 auto;
-  padding: 50px;
+  padding: 60px;
 }
 
 .header {
-  text-align: center;
   height: 450px;
   color: white;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url(/images/header.png);
+  background-image: url(../images/header.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -31,12 +31,11 @@ body {
 .header-text {
   font-size: 20px;
   line-height: 1.5;
-  margin-top: 20px;
+  margin: 25px 0;
 }
 
 .header-button {
   font-size: 20px;
-  margin-top: 20px;
   padding: 25px 40px;
   background-color: #333;
   color: #fff;
@@ -49,16 +48,12 @@ body {
   color: #333;
 }
 
-.application {
-  text-align: center;
-}
-
-.application-title{
+.section-title{
   font-size: 30px;
   font-weight: 900;
 }
 
-.application-text{
+.section-text{
   font-size: 20px;
   line-height: 1.5;
   margin-top: 25px;
@@ -66,7 +61,7 @@ body {
 
 .card {
   background-color: #333;
-  padding: 50px;
+  padding: 60px;
   display: flex;
   justify-content: center;
 }
@@ -74,8 +69,9 @@ body {
 .card-item {
   background-color: #fff;
   overflow: hidden;
-  max-width: 300px;
-  margin-left: 20px;
+  text-overflow: ellipsis;
+  max-width: 350px;
+  margin-left: 25px;
 }
 
 .card-item:first-child {
@@ -83,75 +79,75 @@ body {
 }
 
 .card-image {
-  width: 320px;
+  width: 350px;
   object-fit: cover;
   object-position: center;
 }
 
 .card-contain {
   text-align: center;
-  padding: 30px;
+  padding: 25px;
 }
 
-.title {
+.card-title {
   font-size: 20px;
-  padding: 20px;
+  padding: 20px 0;
   font-weight: 900;
 }
 
-.text {
+.card-text {
   font-size: 20px;
   line-height: 1.5;
-  margin-top: 20px;
 }
 
-.digital {
-  text-align: center;
-}
-
-.contact {
+.information {
   display: flex;
   justify-content: space-between;
-  flex: 1;
+}
+
+.contact-us,
+.about-us {
+  padding: 40px;
+  text-align: center;
+  width: 50%;
 }
 
 .contact-us {
   background-color: #2690d4;
-  padding: 40px;
-  text-align: center;
-  width: 50%;
-}
-
-.contact-title {
-  color: white;
-  font-size: 35px;
-  font-weight: 900;
-  padding: 20px;
-}
-
-.contact-text {
-  color: white;
-  font-size: 20px;
-  line-height: 1.5;
-  margin-top: 20px;
 }
 
 .about-us {
   background-color: #333;
-  padding: 40px;
-  text-align: center;
-  width: 50%;
 }
 
-footer {
+.info-title {
+  color: white;
+  font-size: 40px;
+  font-weight: 700;
+  padding: 20px;
+}
+
+.info-text,
+.contact-mail {
+  color: white;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.contact-mail {
+margin-top: 25px;
+}
+
+.footer {
   background-color: #000;
   display: flex;
   justify-content: space-around;
   padding: 50px;
   color: #fff;
-  font-size: 20px ;
+  font-size: 20px;
 }
 
-a {
+.footer a {
   color: #2690d4;
+  text-decoration: none;
 }
