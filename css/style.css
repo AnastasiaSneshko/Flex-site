@@ -1,0 +1,157 @@
+body {
+  color: #333;
+  font-family: Arial, Helvetica, sans-serifs;
+}
+
+.wrapper {
+  width: 880px;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+.header {
+  text-align: center;
+  height: 450px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/images/header.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.header-title {
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.header-text {
+  font-size: 20px;
+  line-height: 1.5;
+  margin-top: 20px;
+}
+
+.header-button {
+  font-size: 20px;
+  margin-top: 20px;
+  padding: 25px 40px;
+  background-color: #333;
+  color: #fff;
+  border: 1px solid #666;
+}
+
+.header-button:hover {
+  transition: background-color linear 0.3s;
+  background-color: #fff;
+  color: #333;
+}
+
+.application {
+  text-align: center;
+}
+
+.application-title{
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.application-text{
+  font-size: 20px;
+  line-height: 1.5;
+  margin-top: 25px;
+}
+
+.card {
+  background-color: #333;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.card-item {
+  background-color: #fff;
+  overflow: hidden;
+  max-width: 300px;
+  margin-left: 20px;
+}
+
+.card-item:first-child {
+  margin-left: 0;
+}
+
+.card-image {
+  width: 320px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.card-contain {
+  text-align: center;
+  padding: 30px;
+}
+
+.title {
+  font-size: 20px;
+  padding: 20px;
+  font-weight: 900;
+}
+
+.text {
+  font-size: 20px;
+  line-height: 1.5;
+  margin-top: 20px;
+}
+
+.digital {
+  text-align: center;
+}
+
+.contact {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+}
+
+.contact-us {
+  background-color: #2690d4;
+  padding: 40px;
+  text-align: center;
+  width: 50%;
+}
+
+.contact-title {
+  color: white;
+  font-size: 35px;
+  font-weight: 900;
+  padding: 20px;
+}
+
+.contact-text {
+  color: white;
+  font-size: 20px;
+  line-height: 1.5;
+  margin-top: 20px;
+}
+
+.about-us {
+  background-color: #333;
+  padding: 40px;
+  text-align: center;
+  width: 50%;
+}
+
+footer {
+  background-color: #000;
+  display: flex;
+  justify-content: space-around;
+  padding: 50px;
+  color: #fff;
+  font-size: 20px ;
+}
+
+a {
+  color: #2690d4;
+}
