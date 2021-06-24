@@ -41,6 +41,9 @@ body {
 
 .card-title {
   font-size: 20px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
 .card-image {
@@ -53,4 +56,13 @@ body {
   margin: 25px 0 45px 0;
   font-size: 40px;
   font-weight: bold;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.card-text {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
